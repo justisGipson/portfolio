@@ -5,3 +5,16 @@ body {
     background-repeat: no-repeat;
     font-family: var(--mainFont);
 }
+
+.badges {
+    size: 55rem;
+    text-align: center;
+}
+
+.fab {
+    color: #CCD4D4;
+}
+
+.far a:hover{
+    color: #CCD4D4;
+}
