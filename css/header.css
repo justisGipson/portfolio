@@ -1,10 +1,18 @@
 .jumbotron {
     background: url(../assets/img/conifer-daylight-environment-338936.jpg) no-repeat center 30%;
-    /* height: 20%; */
+    min-height: 580px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    color: #C4CCC4;
     text-align: center;
     height: 15rem;
     font-style: oblique;
     font-weight: bolder;
+    top: 0vh;
+}
+
+.display-2 {
+   margin-top: 19rem;
+   color: #C4CCC4;
 }

@@ -19,16 +19,16 @@
 
   <!--Nav Bar  -->
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-muted">
-    <a class="navbar-brand" style="color: white">Welcome</a>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-muted">
+    <a class="navbar-brand">Welcome</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div data-spy="scroll" data-offset="0" class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav" id="nav-content">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">Home</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#projects">Projects</a>
@@ -37,24 +37,75 @@
           <a class="nav-link" href="#other">Other</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link contact" href="contact.html">Contact</a>
+          <a class="nav-link contact" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <!-- About Me  -->
-  
-
   <!-- jumbotron! -->
 
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-2">Justis Gipson</h1>
+      <h1 class="display-2">Justis Gipson | Web Developer</h1>
       <p class="lead"></p>
     </div>
   </div>
 
+  <!-- About Me  -->
+  <div class="aboutMe">
+    <div class="box">
+      <h1 class="display-4 text-center b">About Me</h1>
+      <p></p>
+
+    </div>
+
+  </div>
+
+  <!-- formspree.io -->
+
+<section id="about"></section>
+<section id="portfolio"></section>
+<section id="contact">
+  <div class="container">
+    <h2 class="blockquote text-center text-uppercase">Contact Me</h2>
+    <div class="row">
+      <form action="https://formspree.io/justis710@gmail.com" method="POST">
+        <div class="control-group">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" placeholder="Your Name" id="name" required
+              data-validation-required-message="Please enter your name" name="name">
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" class="form-control" placeholder="Your Email" id="email" required
+              data-validation-required-message="Please enter your email" name="_replyto">
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="form-group">
+            <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+              data-validation-required-message="Please leave a message" name="message"></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="text-center">
+          <div id="success"></div>
+          <button type="submit" class="btn btn-lg btn-secondary btn-block">
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            Send Message
+          </button>
+        </div>
+        <p>GitHub and LinkedIn links at the bottom.</p>
+      </form>
+    </div>
+  </div>
+</section>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -64,5 +115,8 @@
     crossorigin="anonymous"></script>
   <script src="./js/main.js"></script>
 </body>
+<footer>
+  <p class="cr">made by justisGipson -- 2018 -- GitHub and LinkedIn:  <a href="https://github.com/justisGipson" target="blank" class="fab fa-github-square"></a>  <a href="https://www.linkedin.com/in/justis-gipson-00275216a/" target="blank" class="fab fa-linkedin"></a></p>
+</footer>
 
 </html>

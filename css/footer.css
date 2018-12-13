@@ -1,0 +1,22 @@
+footer {
+    background: url(../assets/img/conifer-daylight-environment-338936.jpg) no-repeat center 30%;
+    filter: blur(.5px);
+    background-size: cover;
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #C4CCC4;
+    /* text-align: center; */
+    height: 2rem;
+    font-style: oblique;
+}
+
+.cr {
+    padding-top: 4rem;
+    padding-left: 37%;
+}
+
+p {
+    font-size: 12pt;
+}
