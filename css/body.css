@@ -11,10 +11,18 @@ body {
     text-align: center;
 }
 
-.fab {
+.fab, .fas {
     color: #CCD4D4;
 }
 
 .far a:hover{
     color: #CCD4D4;
+}
+
+.box {
+    backgournd-color: hsla(206, 10%, 87%, 10%);
+    margin: 15vh 10vh;
+    text-align: center;
+
+
 }
