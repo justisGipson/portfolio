@@ -1,4 +1,8 @@
-/* .aboutMe {
-    position: relative;
-    top: 40vw;
-} */
+#aboutMe {
+    margin-top: -8rem;
+}
+
+h1 {
+    margin-top: 10rem;
+    margin-bottom: 20px;
+}
