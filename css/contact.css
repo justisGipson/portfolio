@@ -1,7 +1,7 @@
 #contact {
     top: 85rem;
     margin: 15vh 40vw;
-    font-size: 2.5rem;
+    font-size: 9.5em;
 }
 .container1{
     margin: 2.25vw;
@@ -9,3 +9,6 @@
     font-size: 10pt;
 }
 
+.links {
+    padding-top: 1.5em;
+}
