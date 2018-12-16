@@ -1,5 +1,5 @@
 .jumbotron {
-    background: url(../assets/img/conifer-daylight-environment-338936.jpg) no-repeat center 30%;
+    background: url(../assets/img/hoh_pano.jpg) no-repeat center 30%;
     min-height: 580px;
     background-attachment: fixed;
     background-position: center;
@@ -14,5 +14,6 @@
 
 .display-1 {
    margin-top: 24rem;
-   color: #C4CCC4;
+   color: #CFE3E9;
+   text-shadow: 1px 1px 1px #234B4D;
 }

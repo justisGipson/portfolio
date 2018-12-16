@@ -5,15 +5,13 @@
 
 .navbar-brand {
     font-size: 12pt;
-    font-color: #B9D4EC;
+    color: #B9D4EC;
 }
 
-nav{
-    /* background-color: #96A492;
-    color: #B9D4EC; */
+nav {
+    color: #B9D4EC;
     z-index: 1;
     position: fixed;
-    overflow: auto;
     height: 1.5rem;
     min-height: 27px;
     max-height: 27px;
