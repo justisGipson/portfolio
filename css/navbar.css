@@ -10,11 +10,11 @@
 
 nav {
     color: #B9D4EC;
-    z-index: 1;
-    position: fixed;
-    height: 1.5rem;
-    min-height: 27px;
+    /* z-index: 1; */
+    position: sticky;
+    height: 2.75em;
+    
     max-height: 27px;
-    overflow-y: scroll;
+    overflow-y: visible;
     
 }
