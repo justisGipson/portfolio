@@ -1,16 +1,22 @@
 #contact {
     top: 85em;
-    margin: 1em 1em .5em 7.5em;
     font-size: 9.5em;
-    /* width: 25em; */
 }
 .container1{
-    margin: 2.25vw;
-    padding: 2.5rem;
+    padding: .5rem;
     font-size: 12pt;
     max-width: 30em;
 }
 
 h2 {
     font-size: 9.5em;
+}
+
+.links {
+    display: inline;
+    text-decoration: none; 
+    font-size: 15pt; 
+    margin-top: 2em;
+
+    /* margin: 1em 2em 1em 1em" */
 }

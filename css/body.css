@@ -20,7 +20,7 @@ body {
 }
 
 .box {
-    background-color: hsla(206, 10%, 87%, 50%);
+    background-color: hsla(206, 10%, 87%, 15%);
     margin: 29vh 15vw 18vh 15vw;
     text-align: center;
     border-radius: 1em;
