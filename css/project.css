@@ -1,18 +1,24 @@
 img {
-    height: 20em;
-    width: 34em;
-    left: 10em;
+    height: 20rem;
+    width: 34rem;
+    left: 10rem;
 }
-#a{
+.a{
     margin-bottom: 7em;
-    margin-left: 2.5em;
-    color: #234B4D;
+    padding-left: 2em;
+    color: #CCD4D4;
 }
-#a:hover {
+a.a :hover {
     background-color: hsla(206, 28%, 71%, 15%)
 }
 
 .desc {
-    padding-top: 1.5em;
+    padding: 1.5em;
     font-size: 1.5em;
+
+}
+
+span {
+    width: 10em;
+
 }

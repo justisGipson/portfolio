@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, #DCDCDC, #545454);
+    background-image: linear-gradient(to bottom, #384454, #273547);
     height: 550px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -11,11 +11,21 @@ body {
     text-align: center;
 }
 
+.icon {
+    height: 7rem;
+    width: 7rem;
+    margin-right: 2rem;
+}
+
 .fab, .fas {
     color: #CCD4D4;
 }
 
-.far a:hover{
+a.fab :hover{
+    color: #3c5677;
+}
+
+a.far :hover{
     color: #CCD4D4;
 }
 
@@ -52,6 +62,10 @@ body {
     justify-content: center;
 
     /* margin: 1em 2em 1em 1em" */
+}
+
+a.links :hover{
+    color: #234B4D;
 }
 
 .impLinks {
