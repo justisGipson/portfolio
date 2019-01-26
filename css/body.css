@@ -30,19 +30,19 @@ a.far :hover{
 }
 
 .name {
-    background-color: hsla(206, 10%, 87%, 45%);
+    background-color: hsla(206, 10%, 87%, 60%);
     margin: 33vh 25vw;
     border-radius: .25em;
 }
 
 .box {
-    background-color: hsla(206, 10%, 87%, 20%);
-    margin: 25vh 15vw 15vh 15vw;
+    background-color: hsla(206, 10%, 87%, 35%);
+    margin: 25vh 15vw 10vh 15vw;
     text-align: center;
     border-radius: 1em;
     padding-right: 3em;
     padding-left: 3em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .box1{

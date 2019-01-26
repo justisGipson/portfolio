@@ -8,8 +8,12 @@
     min-width: 50em;
 }
 
-h2 {
-    font-size: 9.5em;
+h1 {
+    color: #CCD4D4;
+}
+
+label {
+    color: #CCD4D4;
 }
 
 .form-control {
