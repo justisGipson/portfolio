@@ -15,6 +15,14 @@ body {
     height: 7rem;
     width: 7rem;
     margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.rPIicon {
+    height: 7rem;
+    width: 5.5rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
 }
 
 .fab, .fas {
