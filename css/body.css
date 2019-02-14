@@ -7,22 +7,29 @@ body {
 }
 
 .badges {
-    size: 55rem;
     text-align: center;
+    width: 65vw;
+    margin-left: 27em;
 }
 
 .icon {
-    height: 7rem;
-    width: 7rem;
+    height: 8rem;
+    width: 8rem;
     margin-right: 2rem;
     margin-top: 2rem;
 }
 
 .rPIicon {
-    height: 7rem;
-    width: 5.5rem;
+    height: 8rem;
+    width: 6.5rem;
     margin-right: 2rem;
     margin-top: 2rem;
+}
+
+.icon:hover, .rPIicon:hover{
+    transition-timing-function: linear;
+    transition: 350ms;
+    transform: scale(1.5)
 }
 
 .fab, .fas {
@@ -45,12 +52,12 @@ a.far :hover{
 
 .box {
     background-color: hsla(206, 10%, 87%, 35%);
-    margin: 25vh 15vw 10vh 15vw;
+    margin: 10vh 15vw 10vh 15vw;
     text-align: center;
     border-radius: 1em;
     padding-right: 3em;
     padding-left: 3em;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
 }
 
 .box1{
@@ -67,12 +74,15 @@ a.far :hover{
     display: inline;
     text-decoration: none; 
     font-size: 45pt; 
-    justify-content: center;
-
-    /* margin: 1em 2em 1em 1em" */
 }
 
-a.links :hover{
+.fab:hover {
+    transition-timing-function: linear;
+    transition: 350ms;
+    transform: scale(1.5)
+}
+
+a.links:hover {
     color: #234B4D;
 }
 
@@ -81,3 +91,4 @@ a.links :hover{
     margin-top: 5em;
     text-align: center;
 }
+
