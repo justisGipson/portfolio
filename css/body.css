@@ -28,8 +28,9 @@ body {
 
 .icon:hover, .rPIicon:hover{
     transition-timing-function: linear;
-    transition: 350ms;
-    transform: scale(1.5)
+    transition: 550ms;
+    transform: scale(1.5);
+    /* box-shadow: .3em .3em .1em #273547; */
 }
 
 .fab, .fas {
