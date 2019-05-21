@@ -4,17 +4,17 @@
 }
 
 .navbar-brand {
-    font-size: 12pt;
-    color: #B9D4EC;
+    font-size: 16pt;
+    color: rgb(202, 203, 204);
 }
 
 nav {
     color: #B9D4EC;
     /* z-index: 1; */
     position: sticky;
-    height: 2.75em;
+    height: 5em;
     
-    max-height: 27px;
-    overflow-y: visible;
+    max-height: 5rem;
+    overflow-y: hidden;
     
 }
