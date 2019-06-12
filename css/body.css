@@ -31,7 +31,6 @@ body {
     transition-timing-function: linear;
     transition: 550ms;
     transform: scale(1.5);
-    /* box-shadow: .3em .3em .1em #273547; */
 }
 
 .fab, .fas {
