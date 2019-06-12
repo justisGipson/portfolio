@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, #747575, #323232);
+    background-image: linear-gradient(to bottom, #969696, #6c6c6c);
     height: 550px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -17,6 +17,7 @@ body {
     width: 9em;
     margin-right: 2.75em;
     margin-top: 3em;
+    text-align: center;
 }
 
 .rPIicon {
