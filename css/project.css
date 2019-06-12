@@ -1,19 +1,29 @@
 img {
-    height: 20rem;
-    width: 34rem;
+    height: 25rem;
+    width: 39rem;
     left: 10rem;
 }
-.a{
-    margin-bottom: 7em;
-    padding-left: 2em;
+
+.display-5 {
+    padding: 1em 0;
     color: #CCD4D4;
+    text-align: center;
 }
+
+.a-text{
+    color: #CCD4D4;
+    font-size: 2.25em;
+    text-decoration: none;
+    text-align: right;
+}
+
 a.a :hover {
-    background-color: hsla(206, 28%, 71%, 15%)
+    background-color: hsla(206, 28%, 71%, 15%);
+    text-decoration: none;
 }
 
 .desc {
-    padding-left: 7.5em;
+    padding-left: 8em;
     padding-right: 7.5em;
     padding-bottom: 2.5em;
     padding-top: 2em;
