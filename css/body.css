@@ -75,7 +75,14 @@ a.far :hover{
     display: inline;
     text-decoration: none; 
     font-size: 45pt;
-    margin-left: 1.9em;
+    margin-left: 1.5em;
+}
+
+.impLinks {
+    margin-left: -11em;
+    margin-top: 3em;
+    text-align: center;
+    color: #CCD4D4;
 }
 
 .fab:hover {
@@ -87,11 +94,3 @@ a.far :hover{
 a.links:hover {
     color: #234B4D;
 }
-
-.impLinks {
-    margin-left: -13em;
-    margin-top: 5em;
-    text-align: center;
-    color: #CCD4D4;
-}
-
